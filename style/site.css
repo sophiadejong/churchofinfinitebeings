@@ -11,6 +11,17 @@ body {
 */
 }
 
+.top-part {
+	background-color: black;
+	width: 100vw;
+	height: 15vh;
+	top:0;
+	position: fixed;
+/* 	z-index: 1000; */
+}
+
+
+
 .content {
 	display: inline-block;
 	width: 100%;
@@ -94,11 +105,12 @@ video {
 .container-biohacks {
 	margin-left: 5%;
 /* 	margin-right: 30%; */
-	width: 44%;
+	width: 90%;
 /* 	margin-top: 15%; */
-	background-color: black;
+	background-color: white;
 	box-shadow: 0px 0px 10px #dae9ff;
 /* 	margin-top: 20%; */
+
 	
 }
 
@@ -179,8 +191,13 @@ h3 {
 }
 
 h4 {
-	color: white;
+	color: black;
 	font-family: sans-serif;
+}
+
+hr {
+	color: red;
+	width: 85vw;
 }
 
 
@@ -371,7 +388,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -380,7 +397,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: red;
 }
 
 .container4 {
@@ -393,6 +410,12 @@ input[type=submit]:hover {
 	font-family: cursive;
 }
 
+/*
+video[poster]{
+height:80%;
+width:80%;
+}
+*/
 /*
 #lname {
 	font-family: cursive;
