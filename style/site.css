@@ -72,6 +72,9 @@ video {
 	margin-left: 5%;
 	margin-right: 5%;
 /* 	padding-bottom: 2%; */
+	background-color: white;
+	border-color: red;
+	border: 5px;
 }
 
 .container1 {
